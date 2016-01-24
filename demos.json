@@ -27,6 +27,6 @@
 {
 	"filename" : "3b-ComplexJSON.html", 
 	"title" : "Consuming more complex data from a JSON API",
-	"description" : "Rivets can do a for each loops through an array. Using rv-each-[variable], you can turn the <a href='3a-ConsumeJSON.html'>simple weather demo</a> into a multi-day forcast."
+	"description" : "Rivets can do a for each loops through an array. Using rv-each-[variable], you can turn the simple weather demo into a multi-day forcast."
 }
 ]
