@@ -12,12 +12,12 @@
 {
 	"filename" : "2a-ToggleElements.html", 
 	"title" : "Basic Tab-based Navigation",
-	"description" : "You can use rivets to toggle the display of elements on and off"
+	"description" : "With a little custom code and a formatter, Rivets can toggle the display of elements on and off."
 },
 {
 	"filename" : "2b-LinkToElements.html", 
 	"title" : "Advanced Tab-based Navigation",
-	"description" : "Using window.location.hash and setInterval(), Rivets can do tabs where the user can link to tabs"
+	"description" : "Using window.location.hash and setInterval(), Rivets can do tabs where the user can link to a given tabs."
 },
 {
 	"filename" : "3a-ConsumeJSON.html", 
@@ -27,6 +27,6 @@
 {
 	"filename" : "3b-ComplexJSON.html", 
 	"title" : "Consuming more complex data from a JSON API",
-	"description" : "Rivets can do a for each loops through an array. This shows how to do that."
+	"description" : "Rivets can do a for each loops through an array. Using rv-each-[variable], you can turn the <a href='3a-ConsumeJSON.html'>simple weather demo</a> into a multi-day forcast."
 }
 ]
