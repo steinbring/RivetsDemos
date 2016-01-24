@@ -1,0 +1,32 @@
+[
+{
+	"filename" : "1a-SimpleBinding.html", 
+	"title" : "Binding 'rv-value' to 'rv-html'",
+	"description" : "This is a simple method of using element attributes to bind the value of a textarea to the innerhtml of a section."
+},
+{
+	"filename" : "1b-MoreSimpleBinding.html", 
+	"title" : "Binding using interpolation",
+	"description" : "You can also use the {curly brackets} in your template."
+},
+{
+	"filename" : "2a-ToggleElements.html", 
+	"title" : "Basic Tab-based Navigation",
+	"description" : "You can use rivets to toggle the display of elements on and off"
+},
+{
+	"filename" : "2b-LinkToElements.html", 
+	"title" : "Advanced Tab-based Navigation",
+	"description" : "Using window.location.hash and setInterval(), Rivets can do tabs where the user can link to tabs"
+},
+{
+	"filename" : "3a-ConsumeJSON.html", 
+	"title" : "Consuming a JSON API",
+	"description" : "You can use XMLHttpRequest() to fetch data from an API and then use Rivets to display the data."
+},
+{
+	"filename" : "3b-ComplexJSON.html", 
+	"title" : "Consuming more complex data from a JSON API",
+	"description" : "Rivets can do a for each loops through an array. This shows how to do that."
+}
+]

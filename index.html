@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rivets.js 101: How to do basic data binding and templating</title>
+</head>
+<body>
+	<h1>Rivets.js 101: How to do basic data binding and templating</h1>
+	<p>
+		<a href='http://rivetsjs.com/'>Rivets.js</a> is a fairly lightweight data binding and template library.  I mainly like it because it does one thing and does it very well.  You get what you need for the job and no more.
+	</p>
+	<h2>Demos</h2>
+
+	<div id="items">
+		<div rv-each-demo="items.demos">
+			<div class="title">
+				<a rv-href="demo.filename">{demo.title}</a>
+			</div>
+			<div class="description">
+				{demo.description}
+			</div>
+			<br style="clear:both;" />
+		</div>
+	</div>
+
+	<h2>Notes</h2>
+
+	<p>
+		This very index is itself a demo of how to use local <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> with your templates.  It is worth checking out.
+	</p>
+	<p>
+		These demos were originally written by <a href="http://steinbring.net">Joe Steinbring</a> for a <a href="http://www.meetup.com/milwaukeejs/events/226653790/">MilwaukeeJS</a> lightening talk.  Feel free to <a href="https://twitter.com/steinbring">shoot me a message</a> if you have a question about anything.
+	</p>
+
+	<script src="rivets.bundled.min.js"></script>
+  	<script src="index.js"></script>
+	<LINK href="index.css" rel="stylesheet" type="text/css">
+</body>
+</html>

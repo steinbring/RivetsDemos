@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Simple Binding: Binding 'rv-value' to 'rv-html'</title>
+  </head>
+
+  <body>
+    <h1>Binding 'rv-value' to 'rv-html'</h1>
+    <p>The textarea is uses the value of items.content for the 'rv-value' attribute and the section uses the value of items.content for the 'rv-html' attribute.</p>
+    <div id="items">
+      <textarea style="width:80%;" rv-value="items.content"></textarea>
+      <section style="width:80%;" rv-html="items.content"></section>
+    </div>
+
+
+  <script src="rivets.bundled.min.js"></script>
+  <script src="1a-SimpleBinding.js"></script>
+  </body>
+
+</html>

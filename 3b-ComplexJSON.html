@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Consuming a JSON API: More complex data</title>
+  </head>
+
+  <body>
+    <h1>Consuming more complex data from a JSON API</h1>
+    <p>
+      Rivets can do a for each loops through an array. Using rv-each-[variable], you can turn the <a href="3a-ConsumeJSON.html">simple weather demo</a> into a multi-day forcast.
+    </p>
+
+    <div id="items">
+      <!-- "rv-each-forecast" creates a for-each loop within the div. Each iteration of the loop is an changes the value of forecast to equal the next item in the items array. -->
+      <div rv-each-forecast="items">
+        <div class="forecastDay">
+          {forecast.day} {forecast.date}
+        </div>
+        <div class="forecast">
+          There will be a high temperature of {forecast.high} and a low of {forecast.low} and it will be {forecast.text}.
+        </div>
+        <br style="clear:both;" />
+      </div>
+    </div>
+
+
+  <script src="rivets.bundled.min.js"></script>
+  <script src="3b-ComplexJSON.js"></script>
+  <LINK href="3b-ComplexJSON.css" rel="stylesheet" type="text/css">
+  </body>
+
+</html>

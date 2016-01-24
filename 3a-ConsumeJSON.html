@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Consuming a JSON API</title>
+  </head>
+
+  <body>
+    <h1>Consuming a JSON API</h1>
+    <p>
+      You can use XMLHttpRequest() to fetch data from an API and then use Rivets to display the data.
+    </p>
+
+    <div id="items">
+      <table>
+        <tr>
+          <th colspan="2">Weather for {items.location.city}, {items.location.region}, {items.location.country}</th>
+        </tr>
+        <tr>
+          <th>
+            As of ...
+          </th>
+          <td>
+            {items.lastBuildDate}
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Sunrise
+          </th>
+          <td>
+            {items.astronomy.sunrise}
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Sunset
+          </th>
+          <td>
+            {items.astronomy.sunset}
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Wind Chill
+          </th>
+          <td>
+            {items.wind.chill}
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Humidity
+          </th>
+          <td>
+            {items.atmosphere.humidity}
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Temperature
+          </th>
+          <td>
+            {items.condition.temp}
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Condition
+          </th>
+          <td>
+            {items.condition.text}
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+  <script src="rivets.bundled.min.js"></script>
+  <script src="3a-ConsumeJSON.js"></script>
+  <LINK href="3a-ConsumeJSON.css" rel="stylesheet" type="text/css">
+  </body>
+
+</html>
